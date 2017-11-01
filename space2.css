@@ -1,46 +1,75 @@
+		*{
+			font-family: sans-serif;
+		}
 		body {
 			background-image: url(bg.png);
 			font-family: Tahoma;
 		}
-		
+
+		header h1 {
+			text-align: center;
+			padding-top: 37px;
+			margin-top: 9px;
+		}
+
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			width: 1020px;
+			height: auto;
+			margin:auto;
+			padding: 0px 10px 10px 10px;
 		}
-		
+
 		header nav ul {
 			list-style-type: none;
+			display: flex;
 			background-color: rgba(255,255,200,0.3);
 		}
-		
+
 		#content {
-			
+			display: flex;
 		}
-		
+
+		#content h1{
+			padding-bottom: 10px;
+		}
+
 		nav li {
-			
+			padding:10px;
+
 		}
-		
+
+		article {
+			margin: 9px;
+		}
+
 		nav li a {
+			padding-right: 10px;
+			text-decoration: none;
+			color: black;
+			font-weight:900;
 		}
-		
+
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
+			width: 70%;
 		}
-		
+
 		aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			width: 30%;
 		}
-		
+
 		body article {
 			background-color: rgba(200,200,200,0.6);
 		}
-		
+
 		header {
 		}
-		
+
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			text-align: center;
 		}
-	
